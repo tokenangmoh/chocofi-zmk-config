@@ -283,10 +283,10 @@
 
         MACRTY {
             bindings = <
-  &kp Q  &kp W  &kp E      &kp R      &kp T       &kp Y    &kp U    &kp I      &kp O    &kp P
-  &kp A  &kp S  &kp D      &kp F      &kp G       &kp H    &kp J    &kp K      &kp L    &kp SEMI
-  &kp Z  &kp X  &kp C      &kp V      &kp B       &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH
-                &kp MINUS  &kp SPACE  &kp BSPC    &kp DEL  &kp RET  &kp SQT
+  &kp Q    &kp W            &kp E               &kp R                  &kp T              &kp Y         &kp U               &kp I                 &kp O            &kp P
+  &lt 6 A  &hml LEFT_ALT S  &hml LEFT_GUI D     &hml LEFT_SHIFT F      &kp G              &kp H         &hmr LEFT_SHIFT J   &hmr LEFT_GUI K       &hmr LEFT_ALT L  &hmr LEFT_CONTROL SEMICOLON
+  &kp Z    &kp X            &kp C               &kp V                  &kp B              &kp N         &kp M               &kp COMMA             &kp DOT          &kp FSLH
+                            &mt LEFT_GUI MINUS  &spc LEFT_SHIFT SPACE  &lt 4 BACKSPACE    &lt 5 DELETE  &mt LEFT_ALT ENTER  &mt LEFT_CONTROL SQT
             >;
         };
 
