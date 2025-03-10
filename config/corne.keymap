@@ -313,8 +313,8 @@
         MOUSE {
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mkp MB4        &mmv MOVE_UP    &mkp MB5         &trans
-  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-  &tog 3  &trans  &trans  &trans  &trans    &trans          &msc SCRL_LEFT  &mkp MB3        &msc SCRL_RIGHT  &trans
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &tog 3
+  &trans  &trans  &trans  &trans  &trans    &trans          &msc SCRL_LEFT  &mkp MB3        &msc SCRL_RIGHT  &trans
                   &trans  &trans  &trans    &mkp MB1        &mkp MB1        &mkp MB2
             >;
         };
